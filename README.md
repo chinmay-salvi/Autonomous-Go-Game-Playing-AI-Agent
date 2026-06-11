@@ -4,10 +4,10 @@ This project implements an Artificial Intelligence agent designed to play the ga
 
 ## Project Structure
 
-*   **`Code/my_player3.py`**: The core AI implementation. It contains the `AlphaBetaMaxMinPlayer` which utilizes Minimax with Alpha-Beta pruning to select the best moves.
-*   **`Code/host.py`**: The game engine and host environment. It manages the board state, enforces the rules of Go (including the KO rule and liberties), and acts as the judge for the game.
-*   **`Code/random_player.py`**: A baseline AI agent that makes valid moves entirely at random.
-*   **`Code/build.sh`**: A shell script used to compile and run the AI agents against each other to evaluate performance.
+*   **`my_player3.py`**: The core AI implementation. It contains the `AlphaBetaMaxMinPlayer` which utilizes Minimax with Alpha-Beta pruning to select the best moves.
+*   **`host.py`**: The game engine and host environment. It manages the board state, enforces the rules of Go (including the KO rule and liberties), and acts as the judge for the game.
+*   **`random_player.py`**: A baseline AI agent that makes valid moves entirely at random.
+*   **`build.sh`**: A shell script used to compile and run the AI agents against each other to evaluate performance.
 
 ## How the AI Works
 
